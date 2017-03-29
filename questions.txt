@@ -1,0 +1,41 @@
+0.  gif: 256 colors
+    bmp: 4294967296 colors
+    JPEG: 16777216 colors
+    png 2 ^64 colors
+
+1.  gif only
+
+2.  Lossless: when a file is compressed and then uncompressed, none of the data is lost, meaning the image will be as clear as when it was compressed
+    Lossy Compression is where some parts of the file are lost in compression to allow it to go as small as possible
+
+3.  JPEG is lossy, BMP, PNG and GIF are lossless
+
+4.  The system modifies the name of the file's first char to show the file can be deleted and the directory recylced and moves the files FAT clusters to the hard drives list of free clusters, the data in the file isn't touched.
+
+5.  Use of encyption on the device 
+
+6.  stdint.h is a header file in the C standard library introduced in the C99 standard library. It cinta
+
+7.  So that the sapce that is used is the right size
+
+8.  BYTE: 1, DWORD: 4, LONG: 4, WORD: 2
+
+9.  ASCII: BM
+
+10. bfSize stores size of whole BMP file, image + headers. biSize stores size of BMP headers
+
+11. If biHeight is negative, the bitmap is a top-down DIB with the origin at the upper left corner.
+
+12. biBitCount
+
+13. If the file can't be found
+
+14. We will always want to read just one element, which will be a struct
+
+15. 3
+
+16. Moves the file pointer in a file opened with a low-level file function.
+
+17. Current position of the file pointer.
+
+18. Rob Bowden
